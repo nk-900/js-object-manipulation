@@ -2,8 +2,24 @@
 Assignment for CSC317 - JS Object manipulation practice
 
 Please see content below.
-(I assume content means output of my program.)
 
+### My Solution:
+const sculptureListLengths = {};
+sculptureList.forEach((sculpture, index) => {
+    const keyLengths ={};
+
+    for (let key in sculpture) {
+        if (typeof sculpture[key] === 'string') {
+            keyLengths[key] = sculpture[key].length;
+        }
+    }
+
+    sculptureListLengths[index] = keyLengths;
+});
+
+console.log(sculptureListLengths);
+
+### Output
 node sculptureScript.js
 name: 26
 artist: 20
