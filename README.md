@@ -23,4 +23,4 @@ alt: 90
   '9': { name: 15, artist: 15, description: 332, url: 32, alt: 86 },
   '10': { name: 7, artist: 15, description: 272, url: 32, alt: 98 },
   '11': { name: 6, artist: 10, description: 78, url: 31, alt: 92 }
-}
+  }
