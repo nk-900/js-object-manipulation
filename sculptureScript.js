@@ -1,7 +1,3 @@
-/* Author: Ian Brown
- * Date: 20251022
- */
-
 const sculptureList = require('./data.js'); // import data.js
 
 const element = sculptureList[0] // <---- comment out this line in your solution!
